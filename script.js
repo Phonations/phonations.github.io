@@ -16,13 +16,19 @@ $(function() {
   var waypoint = new Waypoint({
     element: $('#page-content'),
     handler: function(direction) {
-      console.log('scroll:' + direction);
       var shouldBeStuck = direction === 'down';
       $('#site-header').toggleClass('stuck', shouldBeStuck);
     }
   });
 
-  $(document).scroll(function() {
-    console.log("scroll doc");
+  var header_height = $('#nav').outerHeight();
+  $('#how a, #nav a').click(function (e) {
+    var t = e.currentTarget;
+    if (this.hash && $(this.hash).length > 0) {
+      e.preventDefault();
+      $('html,body').animate({
+        scrollTop: $(this.hash).offset().top - header_height
+      }, 500);
+    }
   });
 });
