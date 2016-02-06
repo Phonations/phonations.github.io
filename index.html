@@ -4,7 +4,9 @@ layout: main
 
 {% for page in site.pages %}
   {% if page.title %}
-  <h1>{{ page.title }}</h1>
-  {{ page.content }}
+  <section id={{ page.id }}>
+    <h1>{{ page.title }}</h1>
+    {{ page.content }}
+  </section>
   {% endif %}
 {% endfor %}

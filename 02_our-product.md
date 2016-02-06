@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our product
-permalink: /our-product/
+id: our-product
 ---
 
 Efficient, user-friendly, powerful, the *rythmo band* tradition brought into the digital universe, offering the best of both worlds:
