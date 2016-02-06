@@ -13,6 +13,7 @@ $(function() {
     } else current++;
   }, 2000);
 
+  // Toggle sticky navigation bar
   var waypoint = new Waypoint({
     element: $('#page-content'),
     handler: function(direction) {
@@ -21,6 +22,7 @@ $(function() {
     }
   });
 
+  // Scroll smoothly when navingating
   var header_height = $('#nav').outerHeight();
   $('#how a, #nav a').click(function (e) {
     var t = e.currentTarget;
@@ -30,5 +32,27 @@ $(function() {
         scrollTop: $(this.hash).offset().top - header_height
       }, 500);
     }
+  });
+
+  // Select nav item when scrolling
+  var sections = [];
+  $('#nav a').each(function(){
+    if(this.hash && $(this.hash).length > 0){
+      var section = $(this.hash).offset();
+      sections.push({
+        'link':$(this),
+        'top':$(this.hash).offset().top - header_height,
+        'bottom':$(this.hash).offset().top + $(this.hash).outerHeight() - header_height
+      });
+    }
+  });
+
+  $(window).scroll(function(){
+    for(var i = 0; i < sections.length; i++)
+      if($(window).scrollTop() >= sections[i].top &&
+          $(window).scrollTop() <= sections[i].bottom){
+        sections[i].link.addClass('selected')
+          .siblings().removeClass('selected');
+      }
   });
 });
