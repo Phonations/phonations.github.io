@@ -40,7 +40,7 @@ ul, ol, dl, figure,
 h1 {
   font-size: 2em;
   margin: .67em 0;
-  color: $pink;
+  color: $brand-color;
 }
 
 p {
@@ -108,7 +108,7 @@ a {
     }
 
     &:hover {
-        color: $pink;
+        color: $brand-color;
     }
 }
 

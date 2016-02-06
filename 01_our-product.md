@@ -6,9 +6,10 @@ id: our-product
 
 Efficient, user-friendly, powerful, the *rythmo band* tradition brought into the digital universe, offering the best of both worlds:
 
-<iframe src="//player.vimeo.com/video/98430505" width="640" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-*Right click [here](http://www.phonations.com/wp-content/uploads/The%20Man%20With...%20Bande%20Rythmo%2059,94.mov) if you want to download an HD version of the video for testing purposes.*
+{% include video.html
+    mp4="http://phonations.com/files/tmwtgar.mp4"
+    ogg="http://phonations.com/files/tmwtgar.ogg"
+    caption="Right click <a href='http://www.phonations.com/wp-content/uploads/The%20Man%20With...%20Bande%20Rythmo%2059,94.mov'>here</a> if you want to download an HD version of the video for testing purposes." %}
 
 Our current product is a dubbing system that uses *rythmo band* technology.
 This technology has been used in France and Canada since the 1960’s but has joined the digital world only 10 years ago.
