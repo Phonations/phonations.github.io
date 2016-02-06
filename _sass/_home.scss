@@ -17,16 +17,29 @@
 }
 
 #parrot {
+  position: relative;
+  background-color: blue;
   width: 350px;
+  height: 70%;
   margin: 0px auto;
-}
 
-#micstick {
-  background-image: url('/images/micstick.png');
-  background-repeat: repeat-y;
-  display: block;
-  height: 60px;
-  margin: 0px 102px;
+  #micstick {
+    background-image: url('/images/micstick.png');
+    background-repeat: repeat-y;
+    display: block;
+    left: 102px;
+    right: 102px;
+    top: 0px;
+    bottom: 260px;
+    position: absolute;
+  }
+
+  img {
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+  }
+
 }
 
 #roles {
