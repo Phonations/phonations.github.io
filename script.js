@@ -12,4 +12,17 @@ $(function() {
       current = 1;
     } else current++;
   }, 2000);
+
+  var waypoint = new Waypoint({
+    element: $('#page-content'),
+    handler: function(direction) {
+      console.log('scroll:' + direction);
+      var shouldBeStuck = direction === 'down';
+      $('#site-header').toggleClass('stuck', shouldBeStuck);
+    }
+  });
+
+  $(document).scroll(function() {
+    console.log("scroll doc");
+  });
 });

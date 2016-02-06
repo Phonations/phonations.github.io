@@ -1,8 +1,17 @@
 /**
  * Site header
  */
-.site-header {
-    height: 60px;
+
+#site-header {
+    width: 100%;
+}
+
+#site-header.stuck {
+    position:fixed;
+    top: 0px;
+}
+
+.site-header-wrapper {
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -97,7 +106,13 @@
     }
 }
 
+.content {
+  margin-top: 60px;
+}
 
+section {
+  padding: 100px 0px 10px;
+}
 
 /**
  * Site footer
