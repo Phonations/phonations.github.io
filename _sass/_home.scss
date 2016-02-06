@@ -44,7 +44,17 @@
 #roles {
   color: $white;
   font-size: 36pt;
+  height: 70px;
   line-height: 70px;
+  overflow: hidden;
+
+  div {
+    height: 70px;
+    -webkit-transition: margin-top 0.5s ease-in-out;
+    -moz-transition: margin-top 0.5s ease-in-out;
+    -o-transition: margin-top 0.5s ease-in-out;
+    transition: margin-top 0.5s ease-in-out;
+  }
 }
 
 #how {
