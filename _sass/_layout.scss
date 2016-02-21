@@ -26,8 +26,8 @@
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
+    line-height: 20px;
+    margin-left: 10px;
     margin-bottom: 0;
     float: left;
 
@@ -40,6 +40,7 @@
 #nav {
     float: right;
     line-height: 56px;
+    margin: 8px 10px 0px 0px;
 
     .menu-icon {
         display: none;
@@ -51,11 +52,8 @@
         text-transform: uppercase;
         color: $text-color;
         line-height: $base-line-height;
+        margin: 0px 3px;
 
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
         &:hover {
           color: $brand-color;
         }
