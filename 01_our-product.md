@@ -6,9 +6,8 @@ id: our-product
 
 Efficient, user-friendly, powerful, the *rythmo band* tradition brought into the digital universe, offering the best of both worlds:
 
-{% include video.html
-    mp4="http://phonations.com/files/tmwtgar.mp4"
-    ogg="http://phonations.com/files/tmwtgar.ogg"
+{% include vimeo.html
+    id="154956226"
     caption="Right click <a href='http://www.phonations.com/wp-content/uploads/The%20Man%20With...%20Bande%20Rythmo%2059,94.mov'>here</a> if you want to download an HD version of the video for testing purposes." %}
 
 Our current product is a dubbing system that uses *rythmo band* technology.
@@ -19,7 +18,7 @@ With the help of the scrolling text, the image and precise and easy audio cues, 
 By using the *Sony 9 pin protocol*, a serial cable and a video reference signal, our product synchronizes with audio recording software (*Protools*, *Cubase*, etc.). The image and rythmo band will run, while the audio will be managed in the audio software that also controls the transport actions (play, record, etc.).
 The system is very precise and user-friendly.
 
-![Diagram](/images/diagram.png)
+![Diagram](/images/diagram.png){: .center-image }
 
 The rythmo band scrolls at a steady speed under the image. When the text touches the red synchronization bar, this is a sign for the voice actor to start talking. When the text has completely scrolled under the red bar, this cues the voice actor to finish his sentence.
 
