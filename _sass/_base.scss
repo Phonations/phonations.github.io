@@ -56,6 +56,21 @@ p {
   line-height: 24px;
 }
 
+ul {
+  list-style: none;
+
+  li:before {
+    color: $brand-color;
+    content: '\e762';
+    font-family: entypo;
+  }
+
+  li {
+    font-size:14px;
+    line-height: 20px;
+  }
+}
+
 /**
  * Images
  */
