@@ -34,13 +34,21 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 20px;
 }
 
 h1 {
   font-size: 2em;
   margin: .67em 0;
   color: $brand-color;
+}
+
+h2 {
+  margin: .75em 0;
+  padding-top: 30px;
+  line-height: 80px;
+  color: #555;
+  font-weight: 300;
 }
 
 p {
@@ -90,7 +98,7 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 

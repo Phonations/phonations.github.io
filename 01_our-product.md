@@ -23,3 +23,18 @@ The system is very precise and user-friendly.
 The rythmo band scrolls at a steady speed under the image. When the text touches the red synchronization bar, this is a sign for the voice actor to start talking. When the text has completely scrolled under the red bar, this cues the voice actor to finish his sentence.
 
 Our product is compatible with *Cappella* and *.DetX* files or you can simply import *MS Word® .DocX* files. More file formats will be supported in near future (*Mosaic*, *VoiceQ*, *DubStudio*, *Synchronos*, *Annotation Edit*, etc.).
+
+## Keys features
+
+Here are some of the key features and benefits of our product:
+
+- Currently it works on a Mac mini platform but can be adapted to other platforms such as Windows and Linux
+- Native support of various existing video file speeds: 23.98, 24, 25 and 29.97fps
+- It accepts SD / HD ready / full HD video formats
+- It is compatible with ProRes and MXF formats
+- It uses MJPEG for best video timing
+- Sony 9 pin protocol (other protocols to come)
+- The internal rhythm of the sentence is not necessarily linear, which makes it possible to respect the rhythm and intonation of speech (prosodic saliences).
+- The font is customizable to adapt to the user’s needs and experience (Script, cursive, etc.).
+
+![Diagram](/images/fonts.png){: .center-image }
