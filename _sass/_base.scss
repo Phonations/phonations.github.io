@@ -60,26 +60,28 @@ p {
   line-height: 24px;
 }
 
-ul {
-  list-style: none;
+section {
+  >ul {
+    list-style: none;
     margin-bottom: 25px;
 
-  li:before {
-    color: $brand-color;
-    content: '\e762';
-    font-family: entypo;
-    font-size: 11px;
-    speak: none;
-    display: inline-block;
-    width: 1em;
-    margin-right: 0.2em;
-    text-align: center;
-  }
+    li:before {
+      color: $brand-color;
+      content: '\e762';
+      font-family: entypo;
+      font-size: 11px;
+      speak: none;
+      display: inline-block;
+      width: 1em;
+      margin-right: 0.2em;
+      text-align: center;
+    }
 
-  li {
-    font-size:14px;
-    line-height: 20px;
-    margin-bottom: 0.5em;
+    li {
+      font-size:14px;
+      line-height: 20px;
+      margin-bottom: 0.5em;
+    }
   }
 }
 
