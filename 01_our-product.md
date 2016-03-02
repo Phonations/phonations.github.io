@@ -28,13 +28,48 @@ Our product is compatible with *Cappella* and *.DetX* files or you can simply im
 
 Here are some of the key features and benefits of our product:
 
-- Currently it works on a Mac mini platform but can be adapted to other platforms such as Windows and Linux
-- Native support of various existing video file speeds: 23.98, 24, 25 and 29.97fps
-- It accepts SD / HD ready / full HD video formats
-- It is compatible with ProRes and MXF formats
-- It uses MJPEG for best video timing
-- Sony 9 pin protocol (other protocols to come)
+- Currently it works on a *Mac mini* platform but can be adapted to other platforms such as *Windows* and *Linux*
+- Native support of various existing video file speeds: *23.98*, *24*, *25* and *29.97fps*
+- It accepts *SD* / *HD ready* / *full HD* video formats
+- It is compatible with *ProRes* and *MXF* formats
+- It uses *MJPEG* for best video timing
+- *Sony 9 pin* protocol (other protocols to come)
 - The internal rhythm of the sentence is not necessarily linear, which makes it possible to respect the rhythm and intonation of speech (prosodic saliences).
 - The font is customizable to adapt to the user’s needs and experience (Script, cursive, etc.).
 
 ![Diagram](/images/fonts.png){: .center-image }
+
+- Unlike the *ADR* system, the rythmo band does not cue the voice actor with a countdown, but rather allows them to see the start and end points of their performance. It also allows them to see the flow and the rhythm of the conversation. This allows a longer recording sequence which saves a lot of studio time.
+- Compatible with *Protools* versions 7 to 10 with *Machine Control* plugin for *Sony 9 pin* protocol support.
+
+## System and equipment requirements
+
+The application can be adapted to multiple operating systems and environments however we currently recommend that you use the following configuration:
+
+- Mac mini Mac OS 10.8: http://www.apple.com/mac-mini/
+- Colin Broad USB422v device: http://www.colinbroad.com/html/usb422v.html
+- Video reference generator
+
+## Upcoming products:
+
+**Phonations** is in the process of developing other complementary tools:
+
+### An authoring tool
+
+A sofware that gives you the possibility to write synchronized text on the image used for:
+
+- Dubbing
+- Post-synchronisation
+- Adding voice to animated films
+- Voice over
+- Sub-titling
+- Audio description
+- Audio transcription
+
+### A web plateform
+
+A collaborative work environment and forum providing access to documentation and support material for different users.
+
+### A game
+
+A game version of the application which will allow you to have a lot of fun with this professional user-friendly tool.

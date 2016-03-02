@@ -51,6 +51,10 @@ h2 {
   font-weight: 300;
 }
 
+h3 {
+  letter-spacing: 1px;
+}
+
 p {
   font-size: 14px;
   line-height: 24px;
@@ -58,17 +62,29 @@ p {
 
 ul {
   list-style: none;
+    margin-bottom: 25px;
 
   li:before {
     color: $brand-color;
     content: '\e762';
     font-family: entypo;
+    font-size: 11px;
+    speak: none;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
   }
 
   li {
     font-size:14px;
     line-height: 20px;
+    margin-bottom: 0.5em;
   }
+}
+
+strong {
+  color: $brand-color;
 }
 
 /**
@@ -97,7 +113,7 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ol {
     margin-left: $spacing-unit;
 }
 
