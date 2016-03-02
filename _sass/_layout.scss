@@ -130,16 +130,16 @@ section {
   display: block;
 }
 
-.portrait {
-    p {
-        color: $brand-color;
-        font-size: 22px;
-        text-align: center;
-        letter-spacing: 2px;
-        padding: 30px;
-        margin-bottom: 0px;
-    }
+.lead {
+    color: $brand-color;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 30px;
+    margin-bottom: 0px;
+}
 
+.portrait {
     ul {
         padding: 0px 5px;
         li {

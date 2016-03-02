@@ -6,6 +6,8 @@ id: about
 
 **Phonations** was created in 2012 by the partnership of **Martin Delille** and **Guy Desdames** with the intention of developing software and services for audiovisual post-production and dubbing industry, at the service of the global community. **Phonations** specializes in the synchronization of sound tracks and the image, using the rythmo band technology.
 
+{% include lead.html
+    text="The most important thing to us is<br>building product people love." %}
 {% include portrait.html %}
 
 **Martin Delille** created an R&D lab for two major companies: *Chinkel* and *Dubbing Brothers*. A computer science and electronics graduate, Martin wears two hats at *Phonations*: Lead developer and post-production expert. Between 2006 and 2008, Martin fully redesigned the *Cappella* software to make it more ergonomic and efficient. Despite the updates made by *Chinkel*, Martin’s 2008 version, which is more stable, is still used by the majority of *Cappella* users. Martin speaks French, English, German and Spanish, has attended several dubbing sessions in Germany and Italy as well as in United States and is dedicated to make his product usable and available to the international community.
