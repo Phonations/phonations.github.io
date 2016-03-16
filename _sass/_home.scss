@@ -58,20 +58,30 @@
 }
 
 #how {
-  background-image: url(/images/homebutton-pink.png);
-  width: 130px;
-  height: 30px;
-  padding: 10px 20px;
-  margin: 0px auto 5px;
-  margin-left: -75px;
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-
   a {
+    background-image: url(/images/homebutton-pink.png);
+    width: 130px;
+    height: 30px;
+    padding: 10px 20px;
+    margin: 0px auto 5px;
+    margin-left: -75px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+
     color: $white;
     text-transform: uppercase;
     font-size: 10pt;
     letter-spacing: 1px;
+
+    transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -o-transition: all 0.7s;
+
+    &:hover {
+      background-image: url(/images/homebutton-white.png);
+      color: #212121;
+    }
   }
 }
