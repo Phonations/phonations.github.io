@@ -41,3 +41,9 @@
 #scrollingparrot.parrotStickToBottom {
   bottom: 129px;
 }
+
+@media screen and (max-width: 950px) {
+  #scrollingmicstick, #scrollingparrot {
+    display: none;
+  }
+}
