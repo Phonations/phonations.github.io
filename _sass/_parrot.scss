@@ -1,0 +1,43 @@
+/**
+ * Scrolling parrot styles
+ */
+
+#scrollingmicstick {
+  background-image: url("/images/scrollingmicstick.png");
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 88px;
+  width: 2px;
+}
+
+#scrollingmicstick.micstickStickToTop {
+  height: 74px;
+}
+
+#scrollingmicstick.micstickStickFixed {
+  position: fixed;
+  bottom: 138px;
+}
+
+#scrollingmicstick.micstickStickToBottom {
+  bottom: 268px;
+}
+
+#scrollingparrot {
+  position: absolute;
+  left: 84px;
+}
+
+#scrollingparrot.parrotStickToTop {
+  top: 74px;
+}
+
+#scrollingparrot.parrotStickFixed {
+  position: fixed;
+  bottom: 2px;
+}
+
+#scrollingparrot.parrotStickToBottom {
+  bottom: 129px;
+}
