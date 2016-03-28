@@ -138,5 +138,11 @@
       color: #777777;
     }
   }
-}
 
+  @media screen and (max-width: 520px) {
+    .col1, .col2 {
+      width: 94%;
+      padding: 0 3%;
+    }
+  }
+}
