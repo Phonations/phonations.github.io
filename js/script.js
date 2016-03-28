@@ -34,25 +34,18 @@ $(function() {
     }
   });
 
-  // Select nav item when scrolling
-  var sections = [];
-  $('#nav a').each(function(){
-    if(this.hash && $(this.hash).length > 0){
-      var section = $(this.hash).offset();
-      sections.push({
-        'link':$(this),
-        'top':$(this.hash).offset().top - header_height,
-        'bottom':$(this.hash).offset().top + $(this.hash).outerHeight() - header_height
-      });
-    }
-  });
-
   $(window).scroll(function(){
-    for(var i = 0; i < sections.length; i++)
-      if($(window).scrollTop() >= sections[i].top &&
-          $(window).scrollTop() <= sections[i].bottom){
-        sections[i].link.addClass('selected')
-          .siblings().removeClass('selected');
+    var scrollTop = $(window).scrollTop() + header_height;
+    $('#nav a').each(function(){
+      if(this.hash && $(this.hash).length > 0){
+        var sectionTop = $(this.hash).offset().top;
+        var sectionBottom = sectionTop + $(this.hash).outerHeight();
+        if(scrollTop >= sectionTop &&
+            scrollTop <= sectionBottom){
+          $(this).addClass('selected')
+            .siblings().removeClass('selected');
+        }
       }
+    });
   });
 });
