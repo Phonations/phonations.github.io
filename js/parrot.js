@@ -13,7 +13,6 @@ $(function() {
     var stickToBottom = false;
     var parrot = $('#scrollingparrot');
     var micstick = $('#scrollingmicstick');
-    console.log(scrollTop, gap, document.body.scrollHeight, $(window).height());
     if(scrollTop < 15 + 59 + 138 + 2) {
       stickToTop = true
     } else if(scrollTop < gap) {

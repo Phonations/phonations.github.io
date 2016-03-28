@@ -18,7 +18,12 @@ With the help of the scrolling text, the image and precise and easy audio cues, 
 By using the *Sony 9 pin protocol*, a serial cable and a video reference signal, our product synchronizes with audio recording software (*Protools*, *Cubase*, etc.). The image and rythmo band will run, while the audio will be managed in the audio software that also controls the transport actions (play, record, etc.).
 The system is very precise and user-friendly.
 
-![Diagram](/images/diagram.png){: .center-image }
+{% include image.html
+    alt="Diagram"
+    src="/images/diagram.png"
+    width="444px"
+    height="510px"
+ %}
 
 The rythmo band scrolls at a steady speed under the image. When the text touches the red synchronization bar, this is a sign for the voice actor to start talking. When the text has completely scrolled under the red bar, this cues the voice actor to finish his sentence.
 
@@ -37,7 +42,12 @@ Here are some of the key features and benefits of our product:
 - The internal rhythm of the sentence is not necessarily linear, which makes it possible to respect the rhythm and intonation of speech (prosodic saliences).
 - The font is customizable to adapt to the user’s needs and experience (Script, cursive, etc.).
 
-![Diagram](/images/fonts.png){: .center-image }
+{% include image.html
+    alt="Fonts"
+    src="/images/fonts.png"
+    width="359px"
+    height="243px"
+ %}
 
 - Unlike the *ADR* system, the rythmo band does not cue the voice actor with a countdown, but rather allows them to see the start and end points of their performance. It also allows them to see the flow and the rhythm of the conversation. This allows a longer recording sequence which saves a lot of studio time.
 - Compatible with *Protools* versions 7 to 10 with *Machine Control* plugin for *Sony 9 pin* protocol support.
