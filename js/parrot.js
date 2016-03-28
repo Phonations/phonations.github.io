@@ -7,7 +7,12 @@ $(function() {
 
   function checkParrot() {
     var scrollTop = $(window).scrollTop();
-    var gap = document.body.scrollHeight -$(window).height() - 128;
+    var docHeight = Math.max(
+        document.body.scrollHeight, document.documentElement.scrollHeight,
+        document.body.offsetHeight, document.documentElement.offsetHeight,
+        document.body.clientHeight, document.documentElement.clientHeight
+    );
+    var gap = docHeight -$(window).height() - 128;
     var stickToTop = false;
     var stickFixed = false;
     var stickToBottom = false;
