@@ -15,7 +15,7 @@ This technology has been used in France and Canada since the 1960’s but has jo
 *Rythmo band technology* has always been the most efficient dubbing technology due to its perfect synchronization with the picture.
 With the help of the scrolling text, the image and precise and easy audio cues, voice actors can read more lines per hour than with the *ADR* system.
 
-By using the *Sony 9 pin protocol*, a serial cable and a video reference signal, our product synchronizes with audio recording software (*Protools*, *Cubase*, etc.). The image and rythmo band will run, while the audio will be managed in the audio software that also controls the transport actions (play, record, etc.).
+By using the *Sony 9 pin protocol*, a serial cable and a video reference signal, our product synchronizes with audio recording software (*Pro Tools*, *Cubase*, etc.). The image and rythmo band will run, while the audio will be managed in the audio software that also controls the transport actions (play, record, etc.).
 The system is very precise and user-friendly.
 
 {% include image.html
@@ -50,7 +50,7 @@ Here are some of the key features and benefits of our product:
  %}
 
 - Unlike the *ADR* system, the rythmo band does not cue the voice actor with a countdown, but rather allows them to see the start and end points of their performance. It also allows them to see the flow and the rhythm of the conversation. This allows a longer recording sequence which saves a lot of studio time.
-- Compatible with *Protools* versions 7 to 10 with *Machine Control* plugin for *Sony 9 pin* protocol support.
+- Compatible with *Pro Tools* versions 7 to 10 with *Machine Control* plugin for *Sony 9 pin* protocol support.
 
 ## System and equipment requirements
 
