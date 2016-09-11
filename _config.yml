@@ -17,3 +17,39 @@ github_username:  phonations
 
 # Build settings
 markdown: kramdown
+
+# Translation
+t:
+  en:
+    how: "See how it works"
+    founder: "Founder"
+    artistic-director: "Artistic director"
+    key-partner: "Key partner"
+    developer: "Developer"
+    name: "Name"
+    name-placeholder: "Your name"
+    email: "Email"
+    email-placeholder: "Email"
+    message: "Message"
+    message-placeholder: "Your message"
+    address: "Where to meet"
+    contact: "New business"
+    employement: "Employement"
+    send: "Send"
+  fr:
+    how: "Comment ça marche"
+    founder: "Fondateur"
+    artistic-director: "Directeur artistique"
+    key-partner: "Partenaire industriel"
+    developer: "Développeur"
+    name: "Nom"
+    name-placeholder: "Votre nom"
+    email: "Email"
+    email-placeholder: "Email"
+    message: "Message"
+    message-placeholder: "Votre message"
+    address: "Adresse"
+    contact: "Contact"
+    employement: "Emploi"
+    send: "Envoyer"
+
