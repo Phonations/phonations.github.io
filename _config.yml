@@ -23,6 +23,7 @@ gems:
 # Translation
 t:
   en:
+    url: "/"
     how: "See how it works"
     founder: "Founder"
     artistic-director: "Artistic director"
@@ -39,6 +40,7 @@ t:
     employement: "Employement"
     send: "Send"
   fr:
+    url: "/fr"
     how: "Comment ça marche"
     founder: "Fondateur"
     artistic-director: "Directeur artistique"
