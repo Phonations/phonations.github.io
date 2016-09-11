@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: Our product
 id: our-product
 ---
@@ -56,8 +57,8 @@ Here are some of the key features and benefits of our product:
 
 The application can be adapted to multiple operating systems and environments however we currently recommend that you use the following configuration:
 
-- Mac mini Mac OS 10.8: http://www.apple.com/mac-mini/
-- Colin Broad USB422v device: http://www.colinbroad.com/html/usb422v.html
+- Mac mini Mac OS 10.8: [http://www.apple.com/mac-mini/]()
+- Colin Broad USB422v device: [http://www.colinbroad.com/html/usb422v.html]()
 - Video reference generator
 
 ## Upcoming products:

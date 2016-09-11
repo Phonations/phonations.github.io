@@ -1,8 +1,11 @@
 ---
 layout: main
+lang: en
 ---
 
-{% for page in site.pages %}
+{% assign pages=site.pages | where:"lang", page.lang %}
+
+{% for page in pages %}
   {% if page.title %}
   <section id={{ page.id }}>
     <h1>{{ page.title }}</h1>

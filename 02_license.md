@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Licensing
-id: licensing
+lang: en
+title: Licence
+id: licence
 ---
 
 Our software is a GPL open-source product so there is no license fee. Our team provides all the services required to install and support the software. Our services include:
