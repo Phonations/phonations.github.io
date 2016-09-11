@@ -17,6 +17,8 @@ github_username:  phonations
 
 # Build settings
 markdown: kramdown
+gems:
+  - jekyll-seo-tag
 
 # Translation
 t:
