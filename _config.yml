@@ -19,6 +19,7 @@ github_username:  phonations
 markdown: kramdown
 gems:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Translation
 t:
