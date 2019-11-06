@@ -17,7 +17,7 @@ github_username:  phonations
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
