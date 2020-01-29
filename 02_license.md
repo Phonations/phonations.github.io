@@ -18,4 +18,4 @@ Thanks to the Open Source nature of the software, it is possible to integrate it
 - Can be adapted to company security standards
 - Import/export of documents using the company graphic identity and branding
 
-For more information about our pricing please contact us at: [martin@phonations.com](mailto:martin@phonations.com)
+For more information about our pricing please contact us at: [contact@phonations.com](mailto:contact@phonations.com)
