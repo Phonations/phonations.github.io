@@ -11,7 +11,7 @@ Notre produit est destiné au traitement des textes, qu’ils soient incrustés 
 
 {% include vimeo.html
     id="154956226"
-    caption="Cliquez droit sur ce <a href='https://www.dropbox.com/s/0n5wmr9ak6z78kz/The%20Man%20With...%20Bande%20Rythmo%2059%2C94.mov?dl=0'>lien</a> si vous voulez télécharger une version HD de la vidéo." %}
+    caption="Cliquez droit sur ce <a href='https://dl.dropboxusercontent.com/s/0n5wmr9ak6z78kz/The%20Man%20With...%20Bande%20Rythmo%2059%2C94.mov?dl=0'>lien</a> si vous voulez télécharger une version HD de la vidéo." %}
 
 Notre produit exploite la technique de la bande rythmo utilisée en France et au Canada depuis les années 60, dans sa version aujourd’hui digitalisée.
 Grâce au synchronisme parfait des images du film avec le texte défilant, les comédiens peuvent enregistrer de longs segments de répliques, jusqu’à une minute et plus, avec une qualité d’interprétation et de mise place ne demandant pas ou peu de retouches de montage, donc un rendement bien supérieur au système ADR très répandu.

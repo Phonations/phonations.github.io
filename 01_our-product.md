@@ -7,9 +7,9 @@ id: our-product
 
 Efficient, user-friendly, powerful, the *rythmo band* tradition brought into the digital universe, offering the best of both worlds:
 
-{% include vimeo.html
-    id="154956226"
-    caption="Right click <a href='https://www.dropbox.com/s/0n5wmr9ak6z78kz/The%20Man%20With...%20Bande%20Rythmo%2059%2C94.mov?dl=0'>here</a> if you want to download an HD version of the video for testing purposes." %}
+{% include youtube.html
+    id="KhPSDPovSrA"
+    caption="Right click <a href='https://dl.dropboxusercontent.com/s/0n5wmr9ak6z78kz/The%20Man%20With...%20Bande%20Rythmo%2059%2C94.mov?dl=0'>here</a> if you want to download an HD version of the video for testing purposes." %}
 
 Our current product is a dubbing system that uses *rythmo band* technology.
 This technology has been used in France and Canada since the 1960’s but has joined the digital world only 10 years ago.
