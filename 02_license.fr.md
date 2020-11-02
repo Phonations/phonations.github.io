@@ -18,4 +18,4 @@ Grâce à la nature Open Source du logiciel, il est possible de l’intégrer av
 - Il peut être adapté aux standards de sécurité d’une compagnie
 - Il permet l’import/export de documents utilisant l’identité graphique et la marque de la compagnie.
 
-Pour toute demande de devis, veuillez nous contacter à l’adresse suivante: [contact@phonations.com](mailto:contact@phonations.com)
+Pour toute demande de devis, veuillez nous contacter à l’adresse suivante: [martin@phonations.com](mailto:martin@phonations.com)
