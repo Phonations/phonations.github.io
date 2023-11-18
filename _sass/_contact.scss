@@ -9,19 +9,6 @@
     font-weight: 300;
   }
 
-  .col1 {
-    display: inline-block;
-    padding: 0px 3%;
-    vertical-align:text-top;
-    width: 55%;
-  }
-
-  .col2 {
-    display: inline-block;
-    vertical-align:text-top;
-    width: 35%;
-  }
-
   label, h4 {
     color: #555555;
     font-size: 14px;
@@ -122,27 +109,6 @@
       border:2px solid #555;
       background-color: #555;
       cursor:pointer;
-    }
-  }
-
-  .col2 {
-    h4 {
-      margin-top: 35px;
-
-      &:first-child {
-        margin-top: 0px;
-      }
-    }
-
-    p {
-      color: #777777;
-    }
-  }
-
-  @media screen and (max-width: 520px) {
-    .col1, .col2 {
-      width: 94%;
-      padding: 0 3%;
     }
   }
 }

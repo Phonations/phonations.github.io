@@ -1,31 +1,21 @@
 <!-- _includes/form.html -->
 <div>
-  <div class="col1">
     <form action="//formspree.io/contact@phonations.com" method="POST">
-      <div>
-        <label> {{ site.t[page.lang].name }} <span class="required">*</span></label>
-        <input type="text" name="name" class="required" placeholder=" {{ site.t[page.lang].name-placeholder }} " required>
-      </div>
-      <div>
-        <label> {{ site.t[page.lang].email }} <span class="required">*</span></label>
-        <input type="email" name="_replyto" class="required" placeholder=" {{ site.t[page.lang].email-placeholder }} " data-validation="email" required>
-      </div>
-      <div>
-        <label> {{ site.t[page.lang].message }} <span class="required">*</span></label>
-        <textarea name="content" cols="1" rows="5" class="required" placeholder=" {{ site.t[page.lang].message-placeholder }} " required></textarea>
-      </div>
-      <button type="submit"> {{ site.t[page.lang].send }} </button>
-      <input type="hidden" name="_next" value="#contact">
+        <div>
+            <label> {{ site.t[page.lang].name }} <span class="required">*</span></label>
+            <input type="text" name="name" class="required" placeholder=" {{ site.t[page.lang].name-placeholder }} " required>
+        </div>
+        <div>
+            <label> {{ site.t[page.lang].email }} <span class="required">*</span></label>
+            <input type="email" name="_replyto" class="required" placeholder=" {{ site.t[page.lang].email-placeholder }} " data-validation="email" required>
+        </div>
+        <div>
+            <label> {{ site.t[page.lang].message }} <span class="required">*</span></label>
+            <textarea name="content" cols="1" rows="5" class="required" placeholder=" {{ site.t[page.lang].message-placeholder }} " required></textarea>
+        </div>
+        <button type="submit"> {{ site.t[page.lang].send }} </button>
+        <input type="hidden" name="_next" value="#contact">
     </form>
-  </div>
-  <div class="col2">
-    <h4> {{ site.t[page.lang].address }} </h4>
-    <p>31 rue des Capucins<br>69001 Lyon<br>France</p>
-    <h4> {{ site.t[page.lang].contact }} </h4>
-    <a href="mailto:contact@phonations.com">contact@phonations.com</a>
-    <h4> {{ site.t[page.lang].employement }} </h4>
-    <a href="mailto:jobs@phonations.com">jobs@phonations.com</a>
-  </div>
 </div>
 
 <div id="social_module">
